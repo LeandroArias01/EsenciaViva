@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav-item {
+    margin: 0 10px;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+
+}
+
+.nav-link {
+    
+}
+
+
