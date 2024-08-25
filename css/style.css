@@ -79,8 +79,33 @@ li {
     text-decoration: none;
 }
 
+
+
+
+/* boton destacado */
+.btn-destacado {
+    background-color: #99ffc7;
+    color: black;
+    border-radius: 5px;
+    border-color: #99ffc7;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: #99ffc7;
+    text-decoration: none;
+}
+
+.btn-destacado:hover {
+    background-color: #5bffa5;
+    border-color: #5bffa5;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
 /* Estilos para pantallas mayores a 501px */
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 426px) {
     .menu-icon {
         display: none; /* Desaparece el icono de menú en pantallas grandes */
     }
@@ -103,5 +128,25 @@ li {
 
     .nav-links li {
         margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .nav-links {
+        font-size: 30px;
+    }
+
+    .brand h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .nav-links {
+        font-size: 60px;
+    }
+
+    .brand h1 {
+        font-size: 60px;
     }
 }

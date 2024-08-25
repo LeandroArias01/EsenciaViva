@@ -1,0 +1,182 @@
+.carousel slide {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    background-size: cover;
+    
+}
+
+.carousel-item {
+    margin-top: 85px;
+    width: 80%;
+    height: 250px;
+    margin-left: 32px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-next-icon {
+    margin-top: 80px;
+}
+
+.carousel-control-prev-icon {
+    margin-top: 80px;
+}
+
+/* media queri */
+@media screen and (min-width: 375px) {
+    .carousel slide {
+        position: relative;
+        width: 100px;
+        height: 10px;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 125px;
+        width: 80%;
+        height: 300px;
+        margin-left: 38px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .carousel slide {
+        position: relative;
+        width: 100px;
+        height: 10px;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 125px;
+        width: 80%;
+        height: 340px;
+        margin-left: 42px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel slide {
+        position: relative;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 125px;
+        width: 80%;
+        height: 500px;
+        margin-left: 80px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .carousel slide {
+        position: relative;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 125px;
+        width: 82%;
+        height: 500px;
+        margin-left: 92px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .carousel slide {
+        position: relative;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 125px;
+        width: 82%;
+        height: 550px;
+        margin-left: 130px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .carousel slide {
+        position: relative;
+        background-size: cover;
+    }
+    
+    .carousel-item {
+        margin-top: 250px;
+        width: 80%;
+        height: 900px;
+        margin-left: 260px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-control-next-icon {
+        margin-top: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 100px;
+    }
+}
+
+
