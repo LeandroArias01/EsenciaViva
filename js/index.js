@@ -13,3 +13,4 @@ closeIcon.addEventListener('click', function() {
     closeIcon.style.display = 'none';
     menuIcon.style.display = 'block';
 });
+

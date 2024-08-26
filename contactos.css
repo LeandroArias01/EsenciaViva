@@ -1,0 +1,298 @@
+
+
+.h1-contacto {
+    margin-left: 25px;
+}
+
+.contactos {
+    width: 500px;
+    height: 90px;
+    background-color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    gap: 15px;
+    margin-left: 85px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.p-contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    
+}
+
+.fa-whatsapp {
+    color: #25d366;
+    transition: transform 0.3s ease;
+}
+
+.fa-instagram {
+    color: #f64343;
+    transition: transform 0.3s ease;
+}
+
+.fa-facebook{
+    color: #3b5998;
+    transition: transform 0.3s ease;
+}
+
+.fa-envelope {
+    color: #ff0000;
+    transition: transform 0.3s ease;
+}
+
+.fa-whatsapp:hover {
+    transform: scale(1.30);
+}
+.fa-instagram:hover {
+    transform: scale(1.30);
+}
+.fa-facebook:hover {
+    transform: scale(1.30);
+}
+.fa-envelope:hover {
+    transform: scale(1.30);
+}
+
+@media screen and (min-width: 320px){
+    .contactos {
+        width: 200px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 15px;
+        margin-left: 60px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .contactos {
+        width: 200px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 15px;
+        margin-left: 80px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (min-width: 425px){
+    .contactos {
+        width: 200px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 15px;
+        margin-left: 110px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .contactos {
+        width: 250px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 25px;
+        margin-inline: 250px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .h1-contacto {
+        font-size: 30px;
+        display: flex;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-inline: 310px;
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contactos {
+        width: 300px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 30px;
+        margin-inline: 360px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .h1-contacto {
+        font-size: 30px;
+        display: flex;
+        margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .contactos {
+        width: 300px;
+        height: 90px;
+        background-color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 30px;
+        margin-inline: 580px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .h1-contacto {
+        font-size: 30px;
+        display: flex;
+        margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .contactos {
+        width: 500px;
+        height: 90px;
+        background-color: white;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 25px;
+        gap: 35px;
+        margin-inline: 1050px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    
+    .h1-contacto {
+        font-size: 60px;
+        display: flex;
+        margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+}
+

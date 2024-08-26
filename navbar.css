@@ -1,0 +1,21 @@
+
+
+@media screen and (min-width: 2560px){
+    .navbar-brand {
+        font-size: 35px;
+    }
+
+    header {
+        font-size: 35px;
+        color: black;
+        
+    }
+
+    .nav-link dropdown-toggle  {
+        color: black;
+    }
+
+    .dropdown-item {
+        font-size: 35px
+    }
+}
